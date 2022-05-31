@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "dead-server",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +12,8 @@
   "license": "MIT",
   "dependencies": {
     "dead-server": "^1.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
